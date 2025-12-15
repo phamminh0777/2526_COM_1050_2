@@ -7,6 +7,6 @@ class Solution:
                 return [dicts[a], i]
             dicts[nums[i]] = i
 sol = Solution()
-nums = [1, 2, 3]
-target = 2
+nums = list(map(int, input().split()))
+target = int(input())
 print(sol.two_sum(nums, target))
