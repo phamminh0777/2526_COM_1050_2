@@ -9,4 +9,8 @@ class Solution:
 sol = Solution()
 nums = list(map(int, input().split()))
 target = int(input())
+<<<<<<< HEAD
 print(sol.two_sum(nums, target))
+=======
+print(sol.two_sum(nums, target))
+>>>>>>> 5e63635f75c93c902678470e0f27cab11e456aa9
